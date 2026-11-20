@@ -1,0 +1,33 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Offline-First (Práctica Semana 11)
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  connectivity_plus: ^6.0.5
+  workmanager: ^0.5.2
+  uuid: ^4.4.0
+  firebase_core: ^5.2.0
+  cloud_firestore: ^7.2.0
+  flutter_secure_storage: ^11.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
